@@ -11,7 +11,7 @@ N = int(sys.argv[1])
 # curves = [np.random.random(20) for i in range(N)]
 values = range(N)
 
-paired = cm = plt.get_cmap('Paired')
+paired = cm = plt.get_cmap('Paired') # Paired
 cNorm  = colors.Normalize(vmin=0, vmax=values[-1])
 scalarMap = cmx.ScalarMappable(norm=cNorm, cmap=paired)
 print scalarMap.get_clim()
