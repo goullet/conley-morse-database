@@ -45,4 +45,5 @@ done
 # Add the SQL html/php files for the model webpage
   MakeWebpage/QueryDatabase/templateForModel/createWebpage.sh $codepath $destdir/
   cp MakeWebpage/QueryDatabase/templateForModel/checkradio-form.php $destdir/
-
+  cp MakeWebpage/ListAllDatabases/index.html $destdir/
+  cp MakeWebpage/ListAllDatabases/getListDatabases.php $destdir/
