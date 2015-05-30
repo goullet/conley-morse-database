@@ -25,3 +25,5 @@ rm *.bak
 cp $resultsdir/database.db $modeldir/
 cp $resultsdir/indexSQL.html $modeldir/
 cp $resultsdir/checkradio-form.php $modeldir/
+cp $resultsdir/index.html $modeldir/
+cp $resultsdir/getListDatabases.php $modeldir/
